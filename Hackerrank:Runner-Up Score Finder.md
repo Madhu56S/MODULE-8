@@ -19,9 +19,20 @@ To write a Python program that takes a list of scores from participants and find
 ---
 
 ## 💻 PROGRAM:
+```
+n=int(input())
+arr=list(map(int, input().split()))
+max_score=max(arr)
+arr=[x for x in arr if x != max_score]
+runner_up=max(arr)
+print(runner_up)
+```
 
-ADD CODE HERE
 
 ## OUTPUT
+<img width="1182" height="231" alt="image" src="https://github.com/user-attachments/assets/8bc0b3ed-9e29-4d8f-91aa-41770032d17f" />
+
+
 
 ## RESULT
+Thus, the python program was successfully exceuted.
