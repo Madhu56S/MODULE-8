@@ -28,8 +28,23 @@ To maintain a dictionary of students with their marks in five subjects, calculat
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+```
+amount=25000
+discount_percentage=5
+cst_percentage=2
+discount_amount=(discount_percentage/100)*amount
+cst_amount=(cst_percentage/100)*amount
+final_amount=amount+cst_amount-discount_amount
+print(final_amount)
+```
+
+
 
 ## OUTPUT
+<img width="1183" height="190" alt="image" src="https://github.com/user-attachments/assets/a749c25d-c6eb-43b8-95cc-9bcb7beea89c" />
+
+
 
 ## RESULT
+Hence Calculated total marks for students and find the topper.
+
